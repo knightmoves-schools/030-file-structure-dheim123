@@ -1,4 +1,4 @@
-﻿namespace knightmoves;
+﻿namespace KnightMoves.KnightLight.Pet;
 
 public class Trainer{
     public string Listen(Animal[] animals) {
@@ -23,25 +23,4 @@ public class Trainer{
     }
 }
 
-public abstract class Animal {
-    
-}
-
-public class Cat : Animal{
-    public string Say() {
-        return "meow";
-    }
-}
-
-public class Dog : Animal{
-    public string Talk() {
-        return "woof";
-    }
-}
-
-public class Bird  : Animal{
-    public string Sing() {
-        return "chirp";
-    }
-}
 
